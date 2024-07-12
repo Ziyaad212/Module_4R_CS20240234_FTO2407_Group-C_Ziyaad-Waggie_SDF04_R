@@ -18,15 +18,17 @@ body {
     padding: 80px;
     border-radius: 10px;
     width: 80%;
-    position: relative; 
+    height: 90px;
+    position: fixed;
   }
   
   .pastry {
     color: #533117;
     padding: 20px;
     border-radius: 50%;
-    font-size: 18px;
-    position: absolute; 
+    font-size: 18px; 
+    position: fixed;
+
   }
   
   .pastry img {
@@ -35,26 +37,26 @@ body {
   }
   
   .pastry1 { /* Cookie */
-    top: 0;
-    left: 0;
+    top: center;
+    left: 250px;
     background-color: #f0bb7f; 
   }
   
   .pastry2 { /* Brownie */
-    top: 0;
-    right: 0;
+    top: center;
+    right:900px;
     background-color: #7f553f; 
   }
   
   .pastry3 { /* Cupcake */
-    bottom: 0;
-    left: 0;
+    bottom: center;
+    left: 900px;
     background-color: #f0a8be; 
   }
   
   .pastry4 { /* Jelly Roll */
-    bottom: 0;
-    right: 0;
+    bottom: center;
+    right: 250px;
     background-color: #7fa8f0; 
   }
   
